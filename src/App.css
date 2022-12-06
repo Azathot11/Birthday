@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.confeti-wrap{
+  color: #fff;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background:  #2977f5;
+}
+.text-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.text-container .weshee{
+  white-space: nowrap;
+  font-weight: 500;
+  font-size: 4rem;
+}
+
+.text-container .message{
+  white-space: nowrap;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+.text-container .whisher{
+  white-space: nowrap;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .text-container .weshee{
+    font-size: 2rem;
+    white-space: default;
+  }
+  .text-container .message{
+    font-size: 1.5rem;
+    white-space: default;
+  }
+
+  .text-container .whisher{
+    font-size: 1.5rem;
+    white-space: default;
+  }
+ 
+}
